@@ -51,7 +51,7 @@
 * string format, berfungsi untuk format int menjadi string atau format suatu nilai dan memasukkan nilai ke dalam pengganti string{} 
 
 >output
-<img src="Screenshot/Latihan1_output.png">
+<img src="Screenshot/Latihan1.png">
 
 ### Latihan2
 
@@ -74,7 +74,7 @@
 * {2:.2f} = menghasilkan output maks 2 bilangan setelah koma (.)
 
 >output
-<img src="Screenshot/Latihan2_output.png">
+<img src="Screenshot/Latihan2.png">
 
 ### Latihan3
 
@@ -110,7 +110,7 @@
 *  for k in range(lebar_belah_ketupat-i) : loop mencetak bintang pada setiap baris bagian bawah
 
 >output
-<img src="Screenshot/Latihan3_output.png">
+<img src="Screenshot/Latihan3.png">
 
 ### Lingkaran
     import math
@@ -137,7 +137,7 @@
 * line 14 : menghasilkan output keliling menggunakan f string
 
 >output
-<img src="Screenshot/Lingkaran_output.png">
+<img src="Screenshot/Lingkaran.png">
 
 ### Flowchart
 
