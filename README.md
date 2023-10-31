@@ -90,12 +90,9 @@ print("  *****".format("*" *5))
 print("   ***".format("*" *3))
 print("    *".format("*" *1))
 
-*  for i in range(lebar_belah_ketupat) : untuk mencetak loop bagian atas belah ketupat sebanyak input
-*  for j in range(lebar_belah_ketupat-i) : untuk mencetak sebelum bintang setiap baris
-*  for k in range(i_+1) : untuk mencetak loop bintang 
-*  for i in range(1,lebar_belah_ketupat) : loop kedua mencetak bagian bawah belah ketupat. Loop ini juga akan berjalan  for j in range(lebar_belah_ketupat-i) kali.
-*  for j in range(i+1) : loop mencetak spasi sebelum bintang bagian bawah
-*  for k in range(lebar_belah_ketupat-i) : loop mencetak bintang pada setiap baris bagian bawah
+* Ini adalah baris pertama dalam script dan mencetak teks "Hello ini script pyhon" ke layar.
+* Selanjutnya, kita memiliki beberapa baris yang mencetak pola segitiga bintang:
+* Pola dimulai dengan baris pertama yang memiliki 1 bintang dan terus bertambah hingga mencapai 9 bintang di tengahnya, dan kemudian berkurang kembali ke 1 bintang. Spasi digunakan untuk membuat pola bintang tampak seperti segitiga dengan bintang-bintangnya yang tertata dengan baik. Konsepnya adalah untuk mencetak jumlah bintang yang sesuai dengan tinggi dan lebar segitiga yang diinginkan.
 
 >output
 <img src="Screenshot/Latihan3.png">
