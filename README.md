@@ -70,11 +70,11 @@ Anda menggunakan format string untuk mengatur tampilan output dalam beberapa kol
     print("Hasil penjumlahan {0}+{1}={2}".format(a, b, a+b))
     print("Hasil pembagian {0}/{1}={2:.2f}".format(a, b, a/b))
 
-* input a&b = menginput nilai yang diminta untuk variabel a&b
-* print("variable a=", a) & ("variable b=", b) = mengeluarkan output text dan memanggil nilai yang telah di input
-* a=int(a) & a=int(b) = mengubah string menjadi integer guna menyelesaikan operasi matematika
-* format = digunakan menggabungkan string dengan variabel integer
-* {2:.2f} = menghasilkan output maks 2 bilangan setelah koma (.)
+* Pertama, program meminta pengguna untuk memasukkan dua nilai (a dan b) menggunakan fungsi input(). Input pengguna disimpan sebagai string dalam variabel a dan b.
+* Kemudian, program mencetak nilai a dan b menggunakan fungsi print(). Ini akan menampilkan nilai yang dimasukkan pengguna.
+* Selanjutnya, program mencetak hasil penggabungan nilai a dan b dengan format string. Di sini, {0}, {1}, dan {2} adalah placeholder yang digunakan untuk memasukkan nilai a, b, dan hasil penggabungan a+b ke dalam string. Hasilnya adalah tampilan seperti "Hasil penggabungan a&b=ab", di mana a dan b adalah nilai yang dimasukkan pengguna.
+* Setelah itu, program mengonversi nilai a dan b dari string ke tipe data integer menggunakan int(a) dan int(b). Ini memungkinkan Anda untuk melakukan operasi matematika pada nilai-nilai tersebut.
+* Program mencetak hasil penjumlahan a+b dan hasil pembagian a/b dengan menggunakan format string yang serupa dengan sebelumnya. Namun, dalam kasus ini, hasil operasi matematika dihitung dan dimasukkan ke dalam string. Anda menggunakan :.2f untuk membatasi hasil pembagian menjadi dua desimal.
 
 >output
 <img src="Screenshot/Latihan2.png">
