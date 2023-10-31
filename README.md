@@ -46,9 +46,12 @@
     print('{0:>3} {1:>16}'.format(8, 10**8))
     print('{0:>3} {1:>16}'.format(9, 10**9))
     print('{0:>3} {1:>16}'.format(10, 10**10))
-* penggunaan end, berfungsi untuk menjadikan dua line print berbeda menjadi 1 baris yang sama
-* penggunaan separator, berfungsi untuk memisahkan argumen, fungsi sep digunakan untuk memberi kesamaan tanda pemisah
-* string format, berfungsi untuk format int menjadi string atau format suatu nilai dan memasukkan nilai ke dalam pengganti string{} 
+* Penggunaan end:
+end digunakan untuk menentukan karakter yang harus ditempatkan setelah setiap pemanggilan print(). Secara default, end adalah karakter baris baru (\n), sehingga setiap pemanggilan print() baru akan memulai pada baris yang baru. Dalam kode Anda, Anda mengganti karakter end dengan string kosong '', sehingga outputnya tidak akan pindah ke baris berikutnya setelah mencetak 'A', 'B', dan 'C'. Hasilnya akan terlihat seperti "ABC" di baris yang sama, lalu baris baru setelah mencetak 'X', 'Y', dan 'Z'.
+* Penggunaan sep:
+sep digunakan untuk menentukan pemisah antara item yang dicetak dalam satu pemanggilan print() yang berisi beberapa argumen. Secara default, sep adalah spasi (' '). Dalam kode Anda, Anda menetapkan sep ke beberapa nilai yang berbeda seperti koma (,), string kosong (''), titik dua (':'), dan string garis pemisah ('-----'). Ini memengaruhi cara item-item dicetak dalam satu baris.
+* String Format:
+Anda menggunakan format string untuk mengatur tampilan output dalam beberapa kolom. Dalam kode ini, Anda menggunakan format {0:>3} dan {1:>16} untuk mengatur lebar kolom untuk nilai pertama dan kedua dalam baris yang dicetak. Dalam contoh ini, nilai pertama diatur menjadi tiga karakter lebar (dengan tanda '>'), dan nilai kedua diatur menjadi enam belas karakter lebar. Juga, Anda menggunakan eksponensial (10**n) untuk mencetak hasil perpangkatan 10.
 
 >output
 <img src="Screenshot/Latihan1.png">
